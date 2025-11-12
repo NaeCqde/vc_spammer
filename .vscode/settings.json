@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "go.lintFlags": ["-min_confidence=1"],
+    "go.formatFlags": [],
+    "[go.mod]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    }
+}

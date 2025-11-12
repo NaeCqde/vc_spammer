@@ -1,0 +1,22 @@
+prefix: ","
+ffmpeg_executable: ".\ffmpeg"
+
+audio:
+    anal:
+        description: アナル移動
+        audio_filter: volume=10dB
+        file: audio/anal.mp3
+    yamazaki:
+        description: 眠くなったら寝る！
+        audio_filter: volume=10dB
+        file: audio/yamazaki.m4a
+    op:
+        description: PornHub OP
+        audio_filter: volume=-10dB
+        file: https://nae.quest/pornhub.mp4
+
+owner_ids:
+    - 1234567890123456789
+
+tokens:
+    - MTA

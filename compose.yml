@@ -1,0 +1,10 @@
+services:
+    vcspammer:
+        container_name: vcspammer
+        restart: unless-stopped
+        env_file: .env
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - "./config.yml:/app/config.yml"

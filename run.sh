@@ -1,0 +1,1 @@
+GOEXPERIMENT=greenteagc go run .
